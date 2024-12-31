@@ -1,0 +1,60 @@
+#navbar_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    box-shadow: 1px 1px 1px grey;
+}
+.navbar_links_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:1rem;
+}
+.navbar_list{
+    list-style-type: none;
+}
+.navbar_list>a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_list>a:hover{
+    border-bottom: 2px solid rgba(255, 0, 0, 0.863);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+.navbar_left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar_logo{
+    margin:auto 8px;
+}
+#logo{
+    width: 35px;
+    height:35px
+}
+.navbar_btn{
+    padding:5px 20px;
+    border-radius: 50px;
+    background-color: inherit;
+    color:rgba(21, 19, 19, 0.727);
+    border-color:rgba(0, 0, 0, 0.727);
+}
+.navbar_btn:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer
+}
+#cartIcon{
+    width:20px;
+    height:20px;
+    position:relative;
+    top:5px;
+    left:5px
+
+}
+
