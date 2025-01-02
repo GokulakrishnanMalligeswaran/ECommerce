@@ -1,0 +1,17 @@
+.product{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:10px;
+
+}
+.old_price{
+    text-decoration: line-through;
+    color: rgb(85, 77, 77);
+    font-weight: none;
+    
+}
+.new_price{
+    font-weight: 700;
+}

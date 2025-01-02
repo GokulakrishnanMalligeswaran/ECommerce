@@ -1,0 +1,55 @@
+.homepage_content{
+    /* width:auto;
+    height: auto; */
+    display: flex;
+    background: linear-gradient(rgb(236, 193, 213) ,white 60% );
+    padding-top: 50px;
+}
+/* HomePage Left */
+.homepage_left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: yellow; */
+    line-height: 4rem;
+    padding-left: 190px;
+}
+.welcome_notes{
+    font-size: 3rem;
+}
+.latest_collection_button{
+    width:max-content;
+    padding:10px 20px;
+    border-radius: 25px;
+    background-color: red;
+    color:white;
+    border: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+#arrow{
+    position:relative;
+    width:15px;
+}
+.waveing{
+    width:50px;
+    height:50px;
+    position: relative;
+    top:9px;
+    left:9px
+}
+
+/* HomePage Right */
+.homepage_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* background-color: red; */
+}
+#hero{
+    width:500px;
+    height:500px
+}
