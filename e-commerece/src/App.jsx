@@ -7,6 +7,7 @@ import Men from './layouts/Men.jsx'
 import Women from './layouts/Women.jsx'
 import Kids from './layouts/Kids.jsx'
 import Popular from './layouts/Popular.jsx'
+import NewCollection from './layouts/NewCollection.jsx'
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
             <Route path='kids' element={<Kids/>}/>
         </Routes>
         <Popular/>
+        <NewCollection/>
     </div>
   )
 }

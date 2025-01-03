@@ -1,10 +1,10 @@
 .product_container{
     text-align: center;
-    background-color: rgb(227, 188, 188);
 }
 .list_of_popular_in_women{
     display:flex;
-    align-items: center;
+    margin-top: 10px;
+    align-items: flex-end;
     justify-content: center;
     padding: 60px;
 }
@@ -12,6 +12,14 @@
     font-size: 2.5rem;
     font-weight: 600;
     padding-top: 30px;
-    border-bottom: 4px solid black;
+    color: rgb(46, 44, 44);
     
+}
+.bottom_line{
+    width:200px;
+    height:5px;
+    background-color: rgb(97, 95, 95);
+    display: flex;
+    margin-top: 5px;
+    justify-self: center;
 }

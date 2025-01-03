@@ -7,6 +7,7 @@ function Popular() {
   return (
     <div className="product_container">
         <h2 className="popular_tag">Popular In Women</h2>
+        <hr className="bottom_line"/>
       <div className="list_of_popular_in_women">
         {data_product.map((product, index) => {
           return (
