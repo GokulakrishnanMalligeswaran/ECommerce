@@ -1,0 +1,27 @@
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 4rem;
+}
+.app_logo_container{
+    display: flex;
+    align-items: center;
+}
+.footer_links{
+    display: flex;
+    gap:20px
+}
+.footer_links>li{
+    list-style-type: none;
+
+}
+.footer_link{
+    text-decoration: none;
+}
+.footer_logos{
+    display: flex;
+    gap:20px
+}
