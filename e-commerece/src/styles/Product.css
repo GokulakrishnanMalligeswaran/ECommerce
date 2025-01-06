@@ -4,6 +4,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding:10px;
+    cursor: pointer;
 
 }
 .old_price{

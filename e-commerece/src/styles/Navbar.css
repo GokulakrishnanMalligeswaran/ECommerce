@@ -49,6 +49,13 @@
     border-bottom-right-radius: 2px;
     
 }
+.navbar_list>a:{
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgba(112, 11, 11, 0.863);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
 
 /* Navbar Right */
 .navbar_login_btn{
