@@ -1,7 +1,7 @@
 import React from 'react'
 import unrated from '../../public/Assets/star_icon.png'
 import rated from '../../public/Assets/star_dull_icon.png'
-export const ProductDetails = (props) => {
+const ProductDetails = (props) => {
   return (
     <div className='product_details_container'>
         <div className="product_left_details">
@@ -19,6 +19,7 @@ export const ProductDetails = (props) => {
                 <img src={rated} alt="" />
                 <img src={rated} alt="" />
                 <img src={unrated} alt="" />
+                <p>(122)</p>
             </div>
             <span>{props.old_price}&nbsp;&nbsp;&nbsp;<p className='old_price'>{props.old_price}</p></span>
         </div>
@@ -26,3 +27,4 @@ export const ProductDetails = (props) => {
     </div>
   )
 }
+export default ProductDetails

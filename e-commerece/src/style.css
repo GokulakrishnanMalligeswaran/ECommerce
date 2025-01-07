@@ -3,4 +3,10 @@
     padding:0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
+:root{
+    --bgcolor: linear-gradient(rgb(236, 193, 213) ,white 100% );
+    
+}
+

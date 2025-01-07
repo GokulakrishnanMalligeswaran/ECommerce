@@ -5,7 +5,12 @@
     justify-content: flex-start;
     padding:10px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+    /* background-color: green; */
 
+}
+.product:hover{
+    transform: scale(1.05);
 }
 .old_price{
     text-decoration: line-through;
@@ -15,4 +20,8 @@
 }
 .new_price{
     font-weight: 700;
+}
+image{
+    border-radius: 5px;
+    width:90%
 }

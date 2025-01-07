@@ -26,7 +26,7 @@ function Footer() {
                 <img src={whatsappLogo} alt="whatsappLog" />
             </div>
             <hr />
-            <p className="footer_copyright">Copyright @ 2023 - All Right Reserved</p>
+            <p className="footer_copyright">Copyright @ 2025 - All Right Reserved</p>
     </div>
   )
 }

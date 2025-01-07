@@ -1,3 +1,11 @@
+.newcollection_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(236, 193, 213) ,white 100% );
+    box-sizing: border-box;
+}
 .new_collection_tag{
     display: flex;
     justify-content: center;
@@ -7,12 +15,13 @@
     color: rgb(46, 44, 44);
 }
 .new_collection_list{
-    width:80%;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     justify-content: space-around;
     padding:20px;
+    margin-left: 20px;
     gap:10px;
+    box-sizing: border-box;
     
 }

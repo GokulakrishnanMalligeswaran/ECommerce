@@ -1,0 +1,50 @@
+.login_container{
+    width:100%;
+    background: linear-gradient(rgb(236, 193, 213) ,white 100% );
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top-center;
+    padding:50px;
+}
+.login_container>h1{
+    color:rgb(211, 24, 127)
+}
+.loginfields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.loginfields> input{
+    width: 400px;
+    height:30px;
+    padding:20px;
+    margin:10px;
+    border-radius:5px;
+    border:none
+}
+.loginfields> input:focus-visible{
+    border:2px solid rgb(211, 24, 127);
+    outline: none;
+}
+.loginfields>button{
+    width: 300px;
+    height:35px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 10px;
+    background-color: rgb(211, 24, 127);
+    cursor: pointer;
+    color:whitesmoke
+}
+.new_account{
+    display: flex;
+    padding-top: 10px;
+}
+.new_account>a{
+    text-decoration: none;
+    color:rgb(211, 24, 127)
+}

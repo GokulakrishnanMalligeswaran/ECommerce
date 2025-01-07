@@ -5,7 +5,7 @@ import '../styles/NewCollection.css'
 
 function NewCollection() {
   return (
-    <div>
+    <div className="newcollection_container">
       <h2 className="new_collection_tag">New Collections</h2>
       <hr className="bottom_line" />
       <div className="new_collection_list">
